@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+🏥 MediBook - Doctor Appointment Booking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MediBook is a doctor appointment booking system built with React, TailwindCSS, and React Router.
+It allows patients to register, login, book appointments with doctors, and view confirmations — all in a simple, responsive UI.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+🔐 User Authentication – Register & Login system
 
-### `npm start`
+📅 Book Appointments – Choose doctor, patient name, and appointment date
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Confirmation Page – Displays appointment details after booking
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📲 Responsive UI – Works on desktop and mobile (TailwindCSS)
 
-### `npm test`
+🔔 Toast Notifications – Using react-toastify for better UX
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tech Stack
 
-### `npm run build`
+Frontend: React 19, React Router v7, TailwindCSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+UI Components: TailwindCSS utility classes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Notifications: React-Toastify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build Tool: React Scripts (CRA)
 
-### `npm run eject`
+🚀 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/yourusername/medibook-doctor-appointment.git
+cd medibook-doctor-appointment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run the project locally:
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Build for production:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm run build
 
-### Making a Progressive Web App
+📸 Screenshots
+🏠 Landing Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📝 Registration
 
-### Advanced Configuration
+✅ Registration Success
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🔑 Login
 
-### Deployment
+👨‍⚕️ Dashboard (After Login)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📅 Book Appointment
 
-### `npm run build` fails to minify
+✅ Appointment Confirmation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📂 Folder Structure
+medibook-doctor-appointment/
+│── public/          # Static files
+│── src/
+│   ├── components/  # Reusable components
+│   ├── pages/       # Pages (Login, Register, Booking, etc.)
+│   ├── App.js       # Main App entry
+│   ├── index.js     # React entry point
+│── package.json     # Dependencies & scripts
+│── tailwind.config.js
+│── README.md
+
+🙌 Future Improvements
+
+Add backend (Node.js/Express + MongoDB) for persistent data
+
+Email/SMS reminders for booked appointments
+
+Doctor-side dashboard for managing schedules
+
+👨‍💻 Author
+
+Developed with ❤️ by Teja Thatikonda
