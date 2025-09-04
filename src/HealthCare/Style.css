@@ -15,9 +15,9 @@ input {
     border-radius: 10px;
     border: 1px solid whitesmoke;
     width: 90%;
-    padding: 8px;
+    padding: 5px;
     /* margin-bottom: 8px; */
-    margin-top: 7px;
+    margin-top: 4px;
     color: white;
     background: transparent;
     font-size: 17px;
@@ -49,7 +49,7 @@ button {
     background-color: rgb(97, 148, 184);
     color: white;
     padding: 10px 50px;
-    margin-top: 15px;
+    margin-top: 8px;
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
