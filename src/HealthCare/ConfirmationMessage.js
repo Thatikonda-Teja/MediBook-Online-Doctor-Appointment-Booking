@@ -17,7 +17,6 @@ export default function ConfirmationMessage() {
     return (
         <div className="confirmation flex flex-col justify-center align-center text-center">
             <h1 className="text-4x1 md:text-5xl font-bold text-sky-800 mb-4 text-center p-4">Appointment Confirmation</h1>
-
             <p className="text-2xl md:text-3xl font-semibold text-green-800 mb-4 opacity-70">Appointment booked succefully</p>
             <div className="w-full max-w-[500px] mx-auto text-left px-4">
                 <p className="text-2xl md:text-3xl text-white mb-2 opacity-70  "> Patient: {appointmentData.PatientName ? appointmentData.PatientName : ''}</p>

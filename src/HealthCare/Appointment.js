@@ -45,7 +45,6 @@ export default function Appointment() {
     }
   }
   console.log(DoctorName)
-
   return (
     <div className="appointment">
       <h1 className="text-2x1 md:text-4xl font-bold text-sky-800 mb-5 text-center p-4">Booking An Appointment</h1>

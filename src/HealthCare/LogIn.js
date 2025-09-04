@@ -39,6 +39,7 @@ export default function LogIn() {
         <div className="login">
             <h1 className="text-2x1 md:text-4xl font-bold text-sky-800 mb-5 text-center p-4">Login</h1>
             <form>
+                
                 <AddInputValues textLabel="Enter Name" inputType="text" inputId="name" inputValue={Name} onInputChange={onNameChange} />
                 <AddInputValues textLabel="Enter Password" inputType="password" inputId="password" inputValue={Password} onInputChange={onPasswordChange} />
                 <button type="button" className="text-xl md:text-2xl text-white rounded bg-sky-700 p-3 w-[100px] h-auto opacity-70" onClick={onLogIn}>Login</button>

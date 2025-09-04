@@ -29,7 +29,7 @@ export default function LandingPage() {
         <h1 className="text-4xl md:text-6xl font-bold mb-10 mt-10 text-white shadow-sm">
           Online Doctor Consultation
         </h1>
-
+        
         <h2 className="text-3xl md:text-5xl font-bold mb-4 text-sky-700">
           Your Health, Our Priority
         </h2>

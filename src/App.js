@@ -8,14 +8,14 @@ import Appointment from "./HealthCare/Appointment";
 import ConfirmationMessage from "./HealthCare/ConfirmationMessage"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
-import  LandingPage  from "./HealthCare/LandingPage";
+import LandingPage from "./HealthCare/LandingPage";
 function App() {
   return (
     <div className="App">
-        <ToastContainer />
+      <ToastContainer />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage/>}/>
+          <Route path="/" element={<LandingPage />} />
           <Route path="/registerform" element={<RegisterForm />} />
           <Route path="/successMessage" element={<SuccessMessage />} />
           <Route path="/Login" element={<LogIn />} />
