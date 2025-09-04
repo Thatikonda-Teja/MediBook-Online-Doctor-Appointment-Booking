@@ -29,7 +29,7 @@ Build Tool: React Scripts (CRA)
 
 Clone the repository:
 
-git clone https://github.com/yourusername/medibook-doctor-appointment.git
+git clone https://github.com/Thatikonda-Teja/MediBook-Online-Doctor-Appointment-Booking.git
 cd medibook-doctor-appointment
 
 
