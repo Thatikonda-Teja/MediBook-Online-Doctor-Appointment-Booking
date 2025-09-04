@@ -62,7 +62,7 @@ export default function RegisterForm() {
   };
   return (
     <div className="form" onSubmit={handleSubmit}>
-      <h1 className="text-2x1 md:text-4xl font-bold text-sky-800 mb-5 text-center p-4">User Registration</h1>
+      <h1 className="text-2x1 md:text-4xl font-bold text-sky-800 mb-4 text-center p-2">User Registration</h1>
       <form>
         <AddInputValues textLabel="Enter Name" inputType="text" inputId="name" inputValue={Name} onInputChange={onNameChange} />
         <AddInputValues textLabel="Enter Email" inputType="email" inputId="email" inputValue={Email} onInputChange={onEmailChange} />
